@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/degree-programs",
+      "handler": "degree-program.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/degree-programs/count",
+      "handler": "degree-program.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/degree-programs/:id",
+      "handler": "degree-program.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/degree-programs",
+      "handler": "degree-program.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/degree-programs/:id",
+      "handler": "degree-program.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/degree-programs/:id",
+      "handler": "degree-program.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
